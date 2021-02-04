@@ -1,6 +1,20 @@
-/* regole media queries */
+/* regole query */
+
 @media screen and (max-width: 430px) {
-  body{
+
+
+  #lezioni .row>.left {
+    width: 100%;
+    float: none;
+    /* debug */
+    background-color: green;
+  }
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+    /* debug */
     background-color: red;
   }
+
+
 }
