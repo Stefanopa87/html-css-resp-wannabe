@@ -47,8 +47,38 @@
 /* regole query per ipad 768px */
 
 @media screen and (max-width: 768px) {
+  /* COMMON */
   body{
-    background-color: red;
+    background-image: url(../img/arco.jpg);
+    background-size: cover;
+    background-position-x: center;
+
   }
 
+  .row{
+    width: 100%;
+  }
+
+  img{
+    height: 100px;
+  }
+
+  /* blocco lezioni */
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 44%;
+    margin: 0 3%;
+    float: left;
+  }
+
+  /* blocco steps */
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 25%;
+    margin: 4%;
+  }
 }
